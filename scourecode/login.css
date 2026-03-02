@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    background-image: url('https://i.ytimg.com/vi/ml3ZAoh9F_4/maxresdefault.jpg'); /* Thay đổi đường dẫn đến ảnh của bạn */
+    background-size: cover; /* Phủ đầy toàn bộ màn hình */
+    background-position: center; /* Vị trí ảnh ở trung tâm */
+
+}
+
+.login-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Đặt con thành vị trí tuyệt đối */
+    top: 40%; /* Đặt vị trí trên cùng của con 50% */
+    left: 50%; /* Đặt vị trí bên trái của con 50% */
+    transform: translate(-50%, -50%); /* Di chuyển con về vị trí trung tâm */
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+}
+.textbox{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:15px;
+    border-radius: 10%;
+}
+.btlogin{
+    font: bold;
+    font-size: 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #71be71;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.bttlogin{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #71be71;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Đặt con thành vị trí tuyệt đối */
+    top: 50%; /* Đặt vị trí trên cùng của con 50% */
+    left: 50%; /* Đặt vị trí bên trái của con 50% */
+    transform: translate(-50%, -50%); /* Di chuyển con về vị trí trung tâm */
+    width: 30%;
+    height: 50%;
+    border-radius: 10%;
+    background-color: #234a34;
+    opacity: 0.5;
+    z-index: -1;
+}
+.control-label{
+    font: Montserrat bold;
+    font-size: 16px;
+    color: #146C94
+}
+.input{
+    display: flex;
+    flex: 1;
+}
+
+.title{
+    font: Montserrat bold;
+    font-size: 64px;
+    color: #146C94
+}
+
+.login-container .btn {        
+    font-size: 16px;
+    font-weight: bold;
+    background: #3598dc;
+    border: none;
+    outline: none !important;
+}
+.login-container .btn:hover, .login-container .btn:focus {
+    background: #2389cd;
+}
+.login-container a {
+    color: #fff;
+    text-decoration: underline;
+}
+.login-container a:hover {
+    text-decoration: none;
+}
+.login-container form a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+.login-container form a:hover {
+    text-decoration: underline;
+}

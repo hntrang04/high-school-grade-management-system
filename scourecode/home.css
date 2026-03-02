@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+}
+/*
+.parent-container {
+    background-color: rgb(47, 214, 214);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+    .main li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .main li:last-child {
+    margin-right: 0;
+  }
+*/
+.header-container{
+    place-items: center;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 0%; /* Đặt vị trí trên cùng của con 50% */
+}
+.btlogout{
+    font: Montserrat bold;
+    font-size: 16px;
+    color: #146C94;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 2.5%; /* Đặt vị trí trên cùng của con 50% */
+    left: 90%; /* Đặt vị trí bên trái của con 50% */
+    border: 5px;
+    border-radius: 10%;
+    background-color: blanchedalmond;
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.header{
+    display: grip;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 0%;
+}
+#1{
+    position:absolute;
+    top: 10%;
+    left: 40%
+}
+#2{
+    position:absolute;
+    top: 10%;
+    left: 30%
+}
+#3{
+    position:absolute;
+    top: 10%;
+    left: 50%
+}
+#4{
+    position:absolute;
+    top: 10%;
+    left: 10%
+}
+#5{
+    position:absolute;
+    top: 10%;
+    left: 70%
+}
+nav li a:hover {
+    color: #007bff;
+}
+
