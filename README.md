@@ -63,7 +63,7 @@ The main objectives of this project are:
 - **Database Architecture:** 
   - Designed the Conceptual Database Model (ERD) for the entire system.
   - Successfully converted the ERD into the **Physical Data Model**, establishing table structures, keys, and relational integrity.
-- **System Modeling (Teacher Module):** designed the Use Case Diagrams, Use Case Specifications, Sequence Diagrams, and Class Diagrams for the **Teacher Information Management** module.
+- **System Modeling:** designed the Use Case Diagrams, Use Case Specifications, Activity Diagrams, Sequence Diagrams, and Class Diagrams for the **Teacher Information Management** module.
 - **Documentation:** Synthesized, edited the final project report, and prepared the presentation slides.
 
 ## 8. Contact
